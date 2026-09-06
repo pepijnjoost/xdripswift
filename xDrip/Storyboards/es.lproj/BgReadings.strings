@@ -1,0 +1,17 @@
+"glucoseReadingsTitle" = "Lecturas";
+"glucoseReadingTitle" = "Lectura";
+"date" = "Fecha";
+"noReadingsToShow" = "No hay datos...";
+"generalSectionHeader" = "General";
+"internalDataSectionHeader" = "Datos internos";
+"timestamp" = "Fecha";
+"backfilledAtFooterFormat" = "Rellenado %@";
+"calculatedValue" = "Valor calculado";
+"slopeArrow" = "Flecha tendencia";
+"id" = "ID";
+"deviceName" = "Dispositivo";
+"rawData" = "Valor interno";
+"glucoseRange" = "Rango de glucosa";
+"bgRangeUrgent" = "Urgente";
+"bgRangeNotUrgent" = "No urgente";
+"bgRangeInRange" = "En rango";

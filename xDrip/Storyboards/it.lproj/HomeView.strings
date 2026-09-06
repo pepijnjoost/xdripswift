@@ -1,0 +1,278 @@
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+/////   Translation needed - remove this header after translation                       /////
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+/// for home view, Info how to start : set transmitter and id, then go back to home screen, start scanning
+"transmitterinfo" = "First go to the Bluetooth screen where you can add and scan for your transmitter.\r\n\nThen come back to the Home screen and start your sensor.";
+
+/// After clicking scan button, this message will appear
+"startScanningInfo" = "Scanning Started.\n\nKeep %@ open in the foreground until a connection is made.\n\n(There's no need to turn off Auto-Lock. Just don't press the home button and don't lock your iPhone)";
+
+/// status info : literally 'Transmitter Battery Level', shows the battery level
+"transmitterbatterylevel" = "Transmitter Battery Level";
+
+/// for home view, title of pop up that gives info about how to select the transmitter. Simply the word Info
+"info" = "Please Read";
+
+/// Text in button on home screen
+"calibrate" = "Calibrate";
+
+/// If transmitter needs pairing, user needs to click the notification
+"transmitternotpaired" = "The Transmitter is not paired with this iPhone. Open the application.";
+
+/// when user manually starts scanning, this is the message that scanning is ongoing
+"scanbluetoothdeviceongoing" = "Scanning for Transmitter...";
+
+/// when user clicks transmitterButton, this is the action to start scanning
+"scanbluetoothdeviceactiontitle" = "Scan for Transmitter";
+
+/// for home view, where it say how old the reading is, 'x minutes ago', literaly translation of 'ago'
+"ago" = "ago";
+
+/// when user starts scanning for bluetooth device, but bluetooth is not authorized
+"bluetoothIsNotAuthorized" = "You did not give bluetooth permission for %@. Go to the settings, find the %@ app, and enable Bluetooth.";
+
+/// for home view, license info
+"licenseinfo" = "This program is free software distributed under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or any later version.\r\n\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY.\r\n\nSee http://www.gnu.org/licenses/gpl.txt for more details.\r\n\r\nInfo: ";
+
+/// To give info to user that the transmitter pairing requeset timed out
+"transmitterpairingattempttimeout" = "Transmitter did not reply to pairing request.";
+
+/// for home view, user clicks calibrate but there's no sensor started yet
+"startsensorbeforecalibration" = "You cannot calibrate unless you have started a sensor.";
+
+/// Text in button on home screen
+"presnooze" = "Snooze";
+
+/// for home view, user clicks calibrate but there's no reading yet
+"theremustbeareadingbeforecalibration" = "There must be at least two readings before you can calibrate. You will be requested to calibrate as soon as there is another reading.";
+
+/// status info : literally 'Sensor Start'
+"sensorstart" = "Sensor Started";
+
+/// To give info to user that the transmitter is successfully paired
+"transmitterpairingsuccessful" = "The Transmitter was successfully paired.";
+
+/// When user has no CGM transmitter created with 'Always connect', and tries to calibrate, then this message is shown
+"theresNoCGMTransmitterActive" = "You cannot calibrate unless you have a transmitter connected.";
+
+/// for home view, miaomiao doesn't detect a sensor
+"sensornotdetected" = "The sensor was not detected. Check if the Transmitter is correctly placed on the sensor.";
+
+/// If transmitter needs pairing, a notification was fired, user clicked it more than 60 seconds later, which is too late
+"transmitterpairingtoolate" = "Too late! The Transmitter has already been disconnected. You should get a new pairing request in a few minutes.";
+
+/// Literally 'Sensor', used as name in the button in the home screen, but also in text in pop ups
+"sensor" = "Sensor";
+
+/// status info : literally 'not known', used if transmitter name is not known
+"notknown" = "Not Known";
+
+/// when user clicks transmitterButton, this is the first action, to show the status
+"statusactiontitle" = "Status";
+
+/// To give result about transitter result in notification body, successful
+"success" = "Success";
+
+/// when user clicks transmitterButton, this is the action to stop the sensor
+"stopsensor" = "Stop Sensor";
+
+/// when user manually starts sensor, this is the message that explains that time should be correct
+"startsensortimeinfo" = "In the next dialogs, you will need to set the date and time the sensor was inserted. It is important that you set the date and time as correct as possible.";
+
+/// when user clicks transmitterButton, this is the action to forget the device, so that user can scan for a new device, in case user switches device
+"forgetbluetoothdeviceactiontitle" = "Forget Transmitter";
+
+/// when user starts scanning but bluetooth is not on
+"bluetoothisnoton" = "Bluetooth is not on. Switch on bluetooth first and then try again.";
+
+/// when user clicks transmitterButton, this is the action to start the sensor
+"startsensor" = "Start Sensor";
+
+/// Error message in case Dexcom G5 (and G6?) battery is too low. This is deteced by wrong G5 values 2096896
+"dexcomBatteryTooLow" = "The Transmitter battery is too low!";
+
+/// status info : literally 'not started', used if sensor is not started
+"notstarted" = "Not Started";
+
+/// To give result about transitter result in notification body, failed
+"failed" = "Failed";
+
+/// status info : literally 'Last connection', shows when the last connection to a transmitter occured
+"lastconnection" = "Last Connection";
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+/////   Translation needed - remove this header after translation                       /////
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+/// Text in button on home screen
+"unlock" = "Unlock";
+
+/// Text in button on home screen
+"lock" = "Lock";
+
+/// Screen Lock Title
+"screenlocktitle" = "Screen Lock Enabled";
+
+/// Info message to explain screen lock function
+"screenlockinfo" = "This will keep the screen awake until you move to another app or click Unlock.\r\n\nIt is recommended that you keep the phone plugged into a charger to prevent battery drain.";
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+/////   Translation needed - remove this header after translation                       /////
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+/// When user clicks stop sensor, ask confirmation
+"stopSensorConfirmation" = "Are you sure you want to stop the sensor?";
+
+/// When user needs to enter sensor code, to start firefly sensor
+"enterSensorCode" = "If you don't know the sensor code, leave this empty to use 0000. Pressing OK without a code will use 0000 as the sensor code, or will just capture the current session if one is already started.";
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+/////   Translation needed - remove this header after translation                       /////
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+/// status info : literally 'Sensor End'
+"sensorend" = "Sensor Ends";
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+/////   Translation needed - remove this header after translation                       /////
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+/// if web oop enabled, and also if transmitter supports this, user clicks calibrate button, but calibration is not possible
+"calibrationNotNecessary" = "When using the native transmitter algorithm, manual calibration is not available.\n\nIf you want to calibrate, you can switch to the xDrip algorithm in the transmitter screen (if available).";
+
+/// nightscout is not enabled
+"nightscoutNotEnabled" = "Nightscout is disabled";
+
+/// After clicking scan button, this message will appear
+"hidingUrlForXSeconds" = "Hiding URL for %@s...";
+
+/// no sensor data is available
+"noSensorData" = "No sensor data";
+
+/// status info : literally 'Sensor Duration'
+"sensorDuration" = "Sensor Duration";
+
+/// nightscout is not enabled
+"nightscoutURLMissing" = "URL missing";
+
+/// ask the user to disconnect and reconnect the sensor
+"reconnectLibreDataSource" = "Disconnect and reconnect Libre sensor";
+
+/// username and/or password is missing for librelinkup
+"followerAccountCredentialsMissing" = "Username/password missing";
+
+/// no data source is enabled or connected
+"noDataSourceConnected" = "No CGM data source connected";
+
+"postProcessingFiveMinuteReadings" = "5-minute readings";
+"postProcessingAlgorithm" = "Algorithm";
+"sensorLifetimeRemainingFormat" = "%@ rimanenti";
+"postProcessingAlgorithmSavitzkyGolay" = "Savitzky-Golay";
+
+"sensorManagementNoiseTitle" = "Rumore del sensore";
+"sensorManagementNoiseShortTerm" = "Ultimi 30 minuti";
+"sensorManagementNoiseLongTerm" = "Ultime 4 ore";
+"sensorManagementNoiseCollecting" = "Raccolta dati";
+"sensorManagementNoiseLow" = "Basso";
+"sensorManagementNoiseElevated" = "Elevato";
+"sensorManagementNoiseVeryHigh" = "Molto alto";
+"sensorManagementNoiseExtreme" = "Estremo";
+"sensorManagementNoiseFlatline" = "Il sensore probabilmente ha smesso di funzionare.";
+"sensorNoiseWarningExtremeTitle" = "Rumore estremo del sensore";
+"sensorNoiseWarningPersistentTitle" = "Rumore persistente del sensore";
+"sensorNoiseWarningFlatlineTitle" = "Il segnale del sensore è piatto";
+"sensorNoiseHistoryTitle" = "Cronologia del rumore";
+"sensorNoiseHistoryCurrentTitle" = "Misurazioni attuali";
+"sensorNoiseHistoryChartTitle" = "Rumore nel tempo";
+"sensorNoiseHistoryRangeTitle" = "Intervallo di tempo";
+"sensorNoiseHistoryDayRange" = "1d";
+"sensorNoiseHistoryThreeDayRange" = "3 g";
+"sensorNoiseHistoryWeekRange" = "7 g";
+"sensorNoiseHistoryAllRange" = "Tutto";
+"sensorNoiseHistoryShortCompact" = "30 min";
+"sensorNoiseHistoryLongCompact" = "4 h";
+"sensorNoiseHistoryLoading" = "Creazione della cronologia del sensore";
+"sensorNoiseHistoryNoDataTitle" = "Dati sul rumore ancora insufficienti";
+"sensorNoiseHistoryNoDataMessage" = "Il grafico apparirà dopo la raccolta di un numero sufficiente di letture del sensore.";
+"sensorNoiseHistoryChartAccessibility" = "Grafico della cronologia del rumore del sensore";
+"pumpBattery" = "Batteria";
+"pumpReservoir" = "Serbatoio";
+"sensorManagementSessionLifetime" = "Elapsed / Remaining";
+"sensorManagementSessionDetails" = "Session Details";
+"sensorManagementCalibrationOpenTitle" = "Calibration Details";
+"sensorManagementCGMType" = "CGM Type";
+"sensorManagementLastCalibration" = "Ultima";
+"sensorManagementStatusActive" = "Sensor Active";
+"sensorManagementStarted" = "Started";
+"sensorManagementEnds" = "Ends";
+"sensorManagementCalibrationValue" = "Valore di calibrazione";
+"sensorManagementCalibrationPending" = "In attesa...";
+"sensorManagementCalibrationStableTrend" = "Tendenza stabile";
+"sensorManagementCalibrationSlightlyLow" = "Leggermente basso";
+"sensorManagementCalibrationSlightlyHigh" = "Leggermente alto";
+"sensorManagementCalibrationNoReading" = "Nessuna lettura";
+"sensorManagementCalibrationGood" = "Buono";
+"sensorManagementCalibrationNoTrend" = "Nessuna tendenza";
+"sensorManagementCalibrationStale" = "Obsoleta";
+"sensorManagementCalibrationStable" = "Stabile";
+"sensorManagementCalibrationFallingFast" = "In rapido calo";
+"sensorManagementCalibrationFalling" = "In calo";
+"sensorManagementCalibrationRisingFast" = "In rapido aumento";
+"sensorManagementCalibrationRising" = "In aumento";
+"sensorManagementCalibrationFlatline" = "Linea piatta";
+"sensorManagementCalibrationBG" = "Glicemia";
+"sensorManagementCalibrationRaw" = "Grezzo";
+"sensorManagementCalibrationSlope" = "Pendenza";
+"sensorManagementCalibrationIntercept" = "Intercetta";
+"sensorManagementCalibrationReadinessBad" = "È improbabile che la calibrazione sia accurata in questo momento. Attendi.";
+"sensorManagementCalibrationReadinessCaution" = "La calibrazione potrebbe essere meno affidabile. Potrebbe essere meglio attendere.";
+"sensorManagementCalibrationReadinessGood" = "Ora è un buon momento per calibrare.";
+"sensorManagementCalibrationSafetyFooter" = "Calibra solo se sai come farlo in sicurezza.";
+"sensorManagementLargeCalibrationDifferenceWarningFormat" = "È possibile che questa calibrazione non funzioni. Cerca di limitare ogni variazione della calibrazione a un massimo di %@ alla volta.";
+"sensorHealthPersistentNoiseTitle" = "Rumore del sensore molto alto";
+"sensorHealthPersistentNoiseGuidance" = "Rumore molto alto da 12 ore. Valuta di sostituire il sensore se continua.";
+"sensorHealthFlatlineTitle" = "Il segnale del sensore è piatto";
+"sensorHealthFlatlineGuidance" = "Letture invariate da 30 minuti. Di solito indica che il sensore è guasto/scaduto.";
+"sensorHealthTemporaryIssueTitle" = "Problema temporaneo del sensore";
+"sensorHealthTemporaryIssueGuidance" = "Problema temporaneo del sensore da 3 ore. Controlla con un glucometro e segui le indicazioni del produttore.";
+"sensorHealthSensorFailedTitle" = "Sensore guasto";
+"sensorHealthSensorFailedGuidance" = "Guasto del sensore segnalato. Sostituisci il sensore.";
+"sensorHealthTransmitterFailedTitle" = "Guasto del trasmettitore";
+"sensorHealthTransmitterFailedGuidance" = "Guasto del trasmettitore segnalato. Controllalo o sostituiscilo.";
+"connectingToCGM" = "Connessione al CGM...";
+"reconnectingToCGM" = "Riconnessione al CGM...";
+
+/* Dexcom G6 sensor-label scanning */
+"scanWithCamera" = "Scansiona con fotocamera";
+"chooseSensorLabelPhoto" = "Scegli foto";
+"readingSensorLabel" = "Lettura dell’etichetta del sensore...";
+"scanSensorLabel" = "Scansiona etichetta sensore";
+"sensorCodeScannerGuidance" = "Posiziona il Data Matrix all’interno del riquadro.";
+"sensorCodeScannerTorch" = "Torcia";
+"cameraAccessRequired" = "Accesso alla fotocamera richiesto";
+"cameraAccessRequiredMessage" = "Consenti l’accesso alla fotocamera in Impostazioni, inserisci il codice manualmente o scegli una foto.";
+"openSettings" = "Apri Impostazioni";
+"cameraUnavailable" = "Fotocamera non disponibile";
+"cameraUnavailableMessage" = "Inserisci manualmente il codice del sensore o scegli una foto.";
+"sensorInformationTitle" = "Informazioni sensore";
+"sensorLotNumber" = "Numero lotto";
+"sensorSerialNumberMetadata" = "Numero di serie del sensore";
+"sensorLabelReviewFooter" = "Controlla le informazioni decodificate prima di avviare il sensore.";
+"sensorLabelScanFailed" = "Etichetta sensore non letta";
+"multipleSensorLabelsFound" = "La foto contiene più di un’etichetta sensore. Scegli una foto con una sola etichetta.";
+"noSensorLabelFound" = "Nella foto non è stata trovata un’etichetta sensore Dexcom G6 valida.";
+"invalidSensorLabelFound" = "È stato trovato un Data Matrix, ma non era un’etichetta sensore Dexcom G6 valida.";
+"sensorLabelPhotoUnreadable" = "Impossibile leggere la foto selezionata.";
+"sensorCodeMetadata" = "Codice sensore";
+"scannedSensorLabelCode" = "Codice etichetta scansionato";
+"noCodeSensorSessionValue" = "0000 (Sessione senza codice)";
+"sensorCodeUnknown" = "Sconosciuto";
+"sensorSessionOrigin" = "Origine sessione";
+"sensorSessionOriginUnknown" = "Sconosciuta";
+"sensorSessionOriginAwaitingTransmitter" = "In attesa del trasmettitore";
+"sensorSessionOriginStartedByApp" = "Avviata da xDrip4iOS";
+"sensorSessionOriginExistingAdopted" = "Sessione esistente adottata";
+"sensorSessionOriginTransmitterDetected" = "Rilevata dal trasmettitore";
+"sensorSessionOriginRejected" = "Richiesta di avvio rifiutata";

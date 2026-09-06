@@ -1,0 +1,211 @@
+"presnooze" = "延后报警";
+"transmitter" = "发射器";
+"calibrate" = "校准";
+"statusactiontitle" = "状态";
+"scanbluetoothdeviceactiontitle" = "扫描发射器";
+"forgetbluetoothdeviceactiontitle" = "取消配对";
+"startsensor" = "启动探头";
+"stopsensor" = "停止探头";
+"startsensortimeinfo" = "在下一个对话框中，您需要设置传感器插入的日期和时间. 输入正确的日期和时间是非常重要的. 尤其是对数据的准确度.";
+"scanbluetoothdeviceongoing" = "正在扫描发射器";
+"bluetoothisnoton" = "蓝牙未打开. 打开蓝牙并再次尝试.不要从设备的设置里直接配对. 扫描和配对都应该在app上进行.";
+"sensorstart" = "启动探头";
+"notstarted" = "未启动";
+"notknown" = "未知";
+"lastconnection" = "上次连接";
+"transmitterbatterylevel" = "发射器电量";
+"ago" = "之前";
+"licenseinfo" = "该程序是免费软件基金会发布的通用公共许可证条款下可使用的免费软件.包括第三版以及后续的新版本.这个程序的设计是希望会有用，但不做任何保证. 登录 http://www.gnu.org/licenses/gpl.txt 可获取更多详细信息 ";
+"transmitterinfo" = "首先进入设置选择你的发射器类型，并输入发射器ID.根据发射器类型, 返回主页扫描发射器.";
+"info" = "信息";
+"startsensorbeforecalibration" = "探头未启动结束之前，无法输入校准值.";
+"theremustbeareadingbeforecalibration" = "在输入指血之前，必须测两次血糖. 当输入一个指血值时，会要求你再次输入另外一个.";
+"sensornotdetected" = "未检测到探头. 请检查发射器是否正确安装在探头上.";
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+/////   Translation needed - remove this header after translation                       /////
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+/// After clicking scan button, this message will appear
+"startScanningInfo" = "Scanning Started.\n\nKeep %@ open in the foreground until a connection is made.\n\n(There's no need to turn off Auto-Lock. Just don't press the home button and don't lock your iPhone)";
+
+/// If transmitter needs pairing, user needs to click the notification
+"transmitternotpaired" = "The Transmitter is not paired with this iPhone. Open the application.";
+
+/// when user starts scanning for bluetooth device, but bluetooth is not authorized
+"bluetoothIsNotAuthorized" = "You did not give bluetooth permission for %@. Go to the settings, find the %@ app, and enable Bluetooth.";
+
+/// To give info to user that the transmitter pairing requeset timed out
+"transmitterpairingattempttimeout" = "Transmitter did not reply to pairing request.";
+
+/// To give info to user that the transmitter is successfully paired
+"transmitterpairingsuccessful" = "The Transmitter was successfully paired.";
+
+/// When user has no CGM transmitter created with 'Always connect', and tries to calibrate, then this message is shown
+"theresNoCGMTransmitterActive" = "You cannot calibrate unless you have a transmitter connected.";
+
+/// If transmitter needs pairing, a notification was fired, user clicked it more than 60 seconds later, which is too late
+"transmitterpairingtoolate" = "Too late! The Transmitter has already been disconnected. You should get a new pairing request in a few minutes.";
+
+/// Literally 'Sensor', used as name in the button in the home screen, but also in text in pop ups
+"sensor" = "Sensor";
+
+/// To give result about transitter result in notification body, successful
+"success" = "Success";
+
+/// Error message in case Dexcom G5 (and G6?) battery is too low. This is deteced by wrong G5 values 2096896
+"dexcomBatteryTooLow" = "The Transmitter battery is too low!";
+
+/// To give result about transitter result in notification body, failed
+"failed" = "Failed";
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+/////   Translation needed - remove this header after translation                       /////
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+/// Text in button on home screen
+"unlock" = "Unlock";
+
+/// Text in button on home screen
+"lock" = "Lock";
+
+/// Screen Lock Title
+"screenlocktitle" = "Screen Lock Enabled";
+
+/// Info message to explain screen lock function
+"screenlockinfo" = "This will keep the screen awake until you move to another app or click Unlock.\r\n\nIt is recommended that you keep the phone plugged into a charger to prevent battery drain.";
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+/////   Translation needed - remove this header after translation                       /////
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+/// When user clicks stop sensor, ask confirmation
+"stopSensorConfirmation" = "Are you sure you want to stop the sensor?";
+
+/// When user needs to enter sensor code, to start firefly sensor
+"enterSensorCode" = "If you don't know the sensor code, leave this empty to use 0000. Pressing OK without a code will use 0000 as the sensor code, or will just capture the current session if one is already started.";
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+/////   Translation needed - remove this header after translation                       /////
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+/// status info : literally 'Sensor End'
+"sensorend" = "Sensor Ends";
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+/////   Translation needed - remove this header after translation                       /////
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+/// if web oop enabled, and also if transmitter supports this, user clicks calibrate button, but calibration is not possible
+"calibrationNotNecessary" = "When using the native transmitter algorithm, manual calibration is not available.\n\nIf you want to calibrate, you can switch to the xDrip algorithm in the transmitter screen (if available).";
+
+/// nightscout is not enabled
+"nightscoutNotEnabled" = "Nightscout is disabled";
+
+/// After clicking scan button, this message will appear
+"hidingUrlForXSeconds" = "Hiding URL for %@s...";
+
+/// no sensor data is available
+"noSensorData" = "No sensor data";
+
+/// status info : literally 'Sensor Duration'
+"sensorDuration" = "Sensor Duration";
+
+/// nightscout is not enabled
+"nightscoutURLMissing" = "URL missing";
+
+/// ask the user to disconnect and reconnect the sensor
+"reconnectLibreDataSource" = "Disconnect and reconnect Libre sensor";
+
+/// username and/or password is missing for librelinkup
+"followerAccountCredentialsMissing" = "Username/password missing";
+
+/// no data source is enabled or connected
+"noDataSourceConnected" = "No CGM data source connected";
+
+"postProcessingFiveMinuteReadings" = "5-minute readings";
+"postProcessingAlgorithm" = "Algorithm";
+"sensorLifetimeRemainingFormat" = "剩余 %@";
+"postProcessingAlgorithmSavitzkyGolay" = "Savitzky-Golay";
+
+"sensorManagementNoiseTitle" = "传感器噪声";
+"sensorManagementNoiseShortTerm" = "最近 30 分钟";
+"sensorManagementNoiseLongTerm" = "最近 4 小时";
+"sensorManagementNoiseCollecting" = "正在收集数据";
+"sensorManagementNoiseLow" = "低";
+"sensorManagementNoiseElevated" = "偏高";
+"sensorManagementNoiseVeryHigh" = "非常高";
+"sensorManagementNoiseExtreme" = "极高";
+"sensorManagementNoiseFlatline" = "传感器可能已经失效。";
+"sensorNoiseWarningExtremeTitle" = "传感器噪声极高";
+"sensorNoiseWarningPersistentTitle" = "传感器持续噪声";
+"sensorNoiseWarningFlatlineTitle" = "传感器信号持平";
+"sensorNoiseHistoryTitle" = "噪声历史";
+"sensorNoiseHistoryCurrentTitle" = "当前测量";
+"sensorNoiseHistoryChartTitle" = "噪声变化";
+"sensorNoiseHistoryRangeTitle" = "时间范围";
+"sensorNoiseHistoryDayRange" = "1d";
+"sensorNoiseHistoryThreeDayRange" = "3 天";
+"sensorNoiseHistoryWeekRange" = "7 天";
+"sensorNoiseHistoryAllRange" = "全部";
+"sensorNoiseHistoryShortCompact" = "30 分钟";
+"sensorNoiseHistoryLongCompact" = "4 小时";
+"sensorNoiseHistoryLoading" = "正在生成传感器历史";
+"sensorNoiseHistoryNoDataTitle" = "噪声数据尚不足";
+"sensorNoiseHistoryNoDataMessage" = "收集到足够的传感器读数后将显示图表。";
+"sensorNoiseHistoryChartAccessibility" = "传感器噪声历史图表";
+"pumpBattery" = "电池";
+"pumpReservoir" = "储药器";
+"sensorManagementSessionLifetime" = "Elapsed / Remaining";
+"sensorManagementSessionDetails" = "Session Details";
+"sensorManagementCalibrationOpenTitle" = "Calibration Details";
+"sensorManagementCGMType" = "CGM Type";
+"sensorManagementLastCalibration" = "最近一次";
+"sensorManagementStatusActive" = "Sensor Active";
+"sensorManagementStarted" = "Started";
+"sensorManagementEnds" = "Ends";
+"sensorHealthPersistentNoiseTitle" = "传感器噪声非常高";
+"sensorHealthPersistentNoiseGuidance" = "噪声已持续非常高 12 小时。如果继续，请考虑更换传感器。";
+"sensorHealthFlatlineTitle" = "传感器信号无变化";
+"sensorHealthFlatlineGuidance" = "读数已 30 分钟无变化。这通常表示传感器已失效/到期。";
+"sensorHealthTemporaryIssueTitle" = "临时传感器问题";
+"sensorHealthTemporaryIssueGuidance" = "临时传感器问题已持续 3 小时。请用血糖仪检查并遵循制造商指导。";
+"sensorHealthSensorFailedTitle" = "传感器失效";
+"sensorHealthSensorFailedGuidance" = "已报告传感器失效。请更换传感器。";
+"sensorHealthTransmitterFailedTitle" = "发射器故障";
+"sensorHealthTransmitterFailedGuidance" = "已报告发射器故障。请检查或更换。";
+"connectingToCGM" = "正在连接 CGM...";
+"reconnectingToCGM" = "正在重新连接 CGM...";
+
+/* Dexcom G6 sensor-label scanning */
+"scanWithCamera" = "使用相机扫描";
+"chooseSensorLabelPhoto" = "选择照片";
+"readingSensorLabel" = "正在读取传感器标签...";
+"scanSensorLabel" = "扫描传感器标签";
+"sensorCodeScannerGuidance" = "将 Data Matrix 置于框内。";
+"sensorCodeScannerTorch" = "手电筒";
+"cameraAccessRequired" = "需要相机权限";
+"cameraAccessRequiredMessage" = "请在“设置”中允许相机访问，或手动输入代码，或选择照片。";
+"openSettings" = "打开设置";
+"cameraUnavailable" = "相机不可用";
+"cameraUnavailableMessage" = "请手动输入传感器代码或选择照片。";
+"sensorInformationTitle" = "传感器信息";
+"sensorLotNumber" = "批号";
+"sensorSerialNumberMetadata" = "传感器序列号";
+"sensorLabelReviewFooter" = "启动传感器前，请检查解码的信息。";
+"sensorLabelScanFailed" = "未能读取传感器标签";
+"multipleSensorLabelsFound" = "照片中包含多个传感器标签。请选择仅含一个标签的照片。";
+"noSensorLabelFound" = "照片中未找到有效的 Dexcom G6 传感器标签。";
+"invalidSensorLabelFound" = "找到了 Data Matrix，但它不是有效的 Dexcom G6 传感器标签。";
+"sensorLabelPhotoUnreadable" = "无法读取所选照片。";
+"sensorCodeMetadata" = "传感器代码";
+"scannedSensorLabelCode" = "扫描的标签代码";
+"noCodeSensorSessionValue" = "0000（无代码会话）";
+"sensorCodeUnknown" = "未知";
+"sensorSessionOrigin" = "会话来源";
+"sensorSessionOriginUnknown" = "未知";
+"sensorSessionOriginAwaitingTransmitter" = "等待发射器";
+"sensorSessionOriginStartedByApp" = "由 xDrip4iOS 启动";
+"sensorSessionOriginExistingAdopted" = "已采用现有会话";
+"sensorSessionOriginTransmitterDetected" = "由发射器检测";
+"sensorSessionOriginRejected" = "启动请求被拒绝";

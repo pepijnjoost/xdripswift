@@ -1,0 +1,160 @@
+"presnooze" = "غفوة";
+"sensor" = "الحساس";
+"calibrate" = "معايرة";
+"statusactiontitle" = "الحالة";
+"scanbluetoothdeviceactiontitle" = "البحث عن جهاز الإرسال";
+"forgetbluetoothdeviceactiontitle" = "حذف جهاز الإرسال";
+"startsensor" = "بداية حساس";
+"stopsensor" = "إيقاف الحساس";
+"startsensortimeinfo" = "في مربعات الحوار التالية ، ستحتاج إلى تعيين التاريخ والوقت الذي تم فيه تركيب الحساس. من المهم أن تقوم بتعيين التاريخ والوقت على النحو الصحيح قدر الإمكان.";
+"scanbluetoothdeviceongoing" = "البحث عن جهاز الإرسال ...";
+"bluetoothisnoton" = "البلوتوث غير مفعل قم بتشغيل البلوتوث أولاً ثم حاول مرة أخرى.";
+"bluetoothIsNotAuthorized" = "لم تمنح إذن البلوتوث لـ %@. انتقل إلى الإعدادات ، وابحث عن تطبيق %@ ، وقم بتمكين البلوتوث.";
+"startScanningInfo" = "بدأ البحث..\n\nاترك %@ مفتوحًا في المقدمة حتى يتم إجراء الاتصال.\n\n(ليست هناك حاجة لإيقاف القفل التلقائي. فقط لا تضغط على زر الصفحة الرئيسية ولا تقفل الجوال)";
+"sensorstart" = "تم بدء الحساس";
+"notstarted" = "لم يبدأ";
+"notknown" = "غير معروف";
+"lastconnection" = "آخر اتصال";
+"transmitterbatterylevel" = "مستوى بطارية جهاز الإرسال";
+"ago" = "مضت";
+"licenseinfo" = "هذا التطبيق عبارة عن برنامج مجاني يتم نشره بموجب شروط رخصة جنو العمومية كما نشرتها مؤسسة البرمجيات الحرة ، إما الإصدار 3 من الترخيص ، أو أي إصدار لاحق.\r\n\nيتم نشر هذا التطبيق على أمل أن يكون مفيدًا ، ولكن دون أي ضمان.\r\n\nاطلع على http://www.gnu.org/licenses/gpl.txt لمزيد من التفاصيل.\r\n\r\nمعلومات: ";
+"info" = "يرجى القراءة";
+"transmitterinfo" = "انتقل أولاً إلى صفحة البلوتوث حيث يمكنك إضافة جهاز الإرسال والبحث عنه.\r\n\nثم ارجع إلى الشاشة الرئيسية وابدأ تشغيل الحساس.";
+"startsensorbeforecalibration" = "لا يمكنك المعايرة إلا إذا قمت بتشغيل الحساس.";
+"theresNoCGMTransmitterActive" = "للمعايرة ، يجب أن يكون لديك جهاز إرسال لنظام مراقبة سكر الدم المستمرة متصل'.";
+"theremustbeareadingbeforecalibration" = "يجب أن تكون هناك قراءتان على الأقل قبل أن تتمكن من المعايرة. سيُطلب منك إجراء المعايرة بمجرد وجود قراءة أخرى.";
+"sensornotdetected" = "لم يتم العثور على الحساس. تحقق مما إذا كان جهاز الإرسال موضوعًا بشكل صحيح على الحساس.";
+"transmitternotpaired" = "لم يتم إقتران جهاز الإرسال بهذا الآيفون. افتح التطبيق.";
+"transmitterpairingtoolate" = "متأخر جدا! تم بالفعل فصل جهاز الإرسال. يجب أن تحصل على طلب إقتران جديد خلال عدة دقائق.";
+"transmitterpairingsuccessful" = "تم إقتران جهاز الإرسال بنجاح.";
+"transmitterpairingattempttimeout" = "لم يستجيب جهاز الإرسال على طلب الاقتران.";
+"success" = "نجاح";
+"failed" = "فشل";
+"dexcomBatteryTooLow" = "بطارية جهاز الإرسال منخفضة جدًا!";
+"unlock" = "فتح القفل";
+"lock" = "قفل";
+"screenlocktitle" = "تم تفعيل قفل الشاشة";
+"screenlockinfo" = "سيؤدي هذا إلى إبقاء الشاشة في حالة نشاط حتى تنتقل إلى تطبيق آخر أو تنقر فوق إلغاء القفل.\r\n\nيوصى بإبقاء الهاتف متصلاً بالشاحن لمنع استنزاف البطارية.";
+"stopSensorConfirmation" = "هل أنت متأكد أنك تريد إيقاف الحساس؟";
+"enterSensorCode" = "إذا كنت لا تعرف رمز الحساس، اتركه فارغًا لاستخدام 0000. الضغط على OK بدون رمز سيستخدم 0000 كرمز للحساس، أو سيقوم فقط بالتقاط الجلسة الحالية إذا كانت قد بدأت بالفعل.";
+
+/// status info : literally 'Sensor End'
+"sensorend" = "ينتهي الحساس";
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+/////   Translation needed - remove this header after translation                       /////
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+/// if web oop enabled, and also if transmitter supports this, user clicks calibrate button, but calibration is not possible
+"calibrationNotNecessary" = "When using the native transmitter algorithm, manual calibration is not available.\n\nIf you want to calibrate, you can switch to the xDrip algorithm in the transmitter screen (if available).";
+
+/// nightscout is not enabled
+"nightscoutNotEnabled" = "Nightscout is disabled";
+
+/// After clicking scan button, this message will appear
+"hidingUrlForXSeconds" = "Hiding URL for %@s...";
+
+/// no sensor data is available
+"noSensorData" = "No sensor data";
+
+/// status info : literally 'Sensor Duration'
+"sensorDuration" = "Sensor Duration";
+
+/// nightscout is not enabled
+"nightscoutURLMissing" = "URL missing";
+
+/// ask the user to disconnect and reconnect the sensor
+"reconnectLibreDataSource" = "Disconnect and reconnect Libre sensor";
+
+/// username and/or password is missing for librelinkup
+"followerAccountCredentialsMissing" = "Username/password missing";
+
+/// no data source is enabled or connected
+"noDataSourceConnected" = "No CGM data source connected";
+
+"postProcessingFiveMinuteReadings" = "5-minute readings";
+"postProcessingAlgorithm" = "Algorithm";
+"sensorLifetimeRemainingFormat" = "متبقي %@";
+"postProcessingAlgorithmSavitzkyGolay" = "Savitzky-Golay";
+
+"sensorManagementNoiseTitle" = "ضوضاء المستشعر";
+"sensorManagementNoiseShortTerm" = "آخر 30 دقيقة";
+"sensorManagementNoiseLongTerm" = "آخر 4 ساعات";
+"sensorManagementNoiseCollecting" = "جارٍ جمع البيانات";
+"sensorManagementNoiseLow" = "منخفضة";
+"sensorManagementNoiseElevated" = "مرتفعة";
+"sensorManagementNoiseVeryHigh" = "مرتفعة جدًا";
+"sensorManagementNoiseExtreme" = "شديدة";
+"sensorManagementNoiseFlatline" = "من المحتمل أن المستشعر قد فشل.";
+"sensorNoiseWarningExtremeTitle" = "ضوضاء شديدة في المستشعر";
+"sensorNoiseWarningPersistentTitle" = "ضوضاء مستمرة في المستشعر";
+"sensorNoiseWarningFlatlineTitle" = "إشارة المستشعر ثابتة";
+"sensorNoiseHistoryTitle" = "سجل ضوضاء المستشعر";
+"sensorNoiseHistoryCurrentTitle" = "القياسات الحالية";
+"sensorNoiseHistoryChartTitle" = "الضوضاء بمرور الوقت";
+"sensorNoiseHistoryRangeTitle" = "النطاق الزمني";
+"sensorNoiseHistoryDayRange" = "1d";
+"sensorNoiseHistoryThreeDayRange" = "3 أ";
+"sensorNoiseHistoryWeekRange" = "7 أ";
+"sensorNoiseHistoryAllRange" = "الكل";
+"sensorNoiseHistoryShortCompact" = "30 د";
+"sensorNoiseHistoryLongCompact" = "4 س";
+"sensorNoiseHistoryLoading" = "جارٍ إنشاء سجل المستشعر";
+"sensorNoiseHistoryNoDataTitle" = "لا توجد بيانات ضوضاء كافية بعد";
+"sensorNoiseHistoryNoDataMessage" = "سيظهر المخطط بعد جمع عدد كافٍ من قراءات المستشعر.";
+"sensorNoiseHistoryChartAccessibility" = "مخطط سجل ضوضاء المستشعر";
+"pumpBattery" = "البطارية";
+"pumpReservoir" = "الخزان";
+"sensorManagementSessionLifetime" = "Elapsed / Remaining";
+"sensorManagementSessionDetails" = "Session Details";
+"sensorManagementCalibrationOpenTitle" = "Calibration Details";
+"sensorManagementCGMType" = "CGM Type";
+"sensorManagementLastCalibration" = "الأخيرة";
+"sensorManagementStatusActive" = "Sensor Active";
+"sensorManagementStarted" = "Started";
+"sensorManagementEnds" = "Ends";
+"sensorHealthPersistentNoiseTitle" = "تشويش المستشعر مرتفع جدًا";
+"sensorHealthPersistentNoiseGuidance" = "تشويش مرتفع جدًا لمدة 12 ساعة. فكّر في استبدال المستشعر إذا استمر.";
+"sensorHealthFlatlineTitle" = "إشارة المستشعر ثابتة";
+"sensorHealthFlatlineGuidance" = "لم تتغير القراءات منذ 30 دقيقة. يشير هذا عادةً إلى تعطل/انتهاء صلاحية المستشعر.";
+"sensorHealthTemporaryIssueTitle" = "مشكلة مؤقتة في المستشعر";
+"sensorHealthTemporaryIssueGuidance" = "مشكلة مؤقتة في المستشعر منذ 3 ساعات. تحقق بجهاز قياس السكر واتبع إرشادات الشركة المصنّعة.";
+"sensorHealthSensorFailedTitle" = "فشل المستشعر";
+"sensorHealthSensorFailedGuidance" = "تم الإبلاغ عن فشل المستشعر. استبدل المستشعر.";
+"sensorHealthTransmitterFailedTitle" = "فشل جهاز الإرسال";
+"sensorHealthTransmitterFailedGuidance" = "تم الإبلاغ عن فشل جهاز الإرسال. تحقّق منه أو استبدله.";
+"connectingToCGM" = "جارٍ الاتصال بجهاز CGM...";
+"reconnectingToCGM" = "جارٍ إعادة الاتصال بجهاز CGM...";
+
+/* Dexcom G6 sensor-label scanning */
+"scanWithCamera" = "المسح بالكاميرا";
+"chooseSensorLabelPhoto" = "اختيار صورة";
+"readingSensorLabel" = "جارٍ قراءة ملصق المستشعر...";
+"scanSensorLabel" = "مسح ملصق المستشعر";
+"sensorCodeScannerGuidance" = "ضع رمز Data Matrix داخل الإطار.";
+"sensorCodeScannerTorch" = "المصباح";
+"cameraAccessRequired" = "يلزم الوصول إلى الكاميرا";
+"cameraAccessRequiredMessage" = "اسمح بالوصول إلى الكاميرا في الإعدادات، أو أدخل الرمز يدويًا، أو اختر صورة.";
+"openSettings" = "فتح الإعدادات";
+"cameraUnavailable" = "الكاميرا غير متاحة";
+"cameraUnavailableMessage" = "أدخل رمز المستشعر يدويًا أو اختر صورة.";
+"sensorInformationTitle" = "معلومات المستشعر";
+"sensorLotNumber" = "رقم الدفعة";
+"sensorSerialNumberMetadata" = "الرقم التسلسلي للمستشعر";
+"sensorLabelReviewFooter" = "تحقق من المعلومات التي تم فكها قبل بدء المستشعر.";
+"sensorLabelScanFailed" = "تعذرت قراءة ملصق المستشعر";
+"multipleSensorLabelsFound" = "تحتوي الصورة على أكثر من ملصق مستشعر. اختر صورة تحتوي على ملصق واحد.";
+"noSensorLabelFound" = "لم يتم العثور على ملصق مستشعر Dexcom G6 صالح في الصورة.";
+"invalidSensorLabelFound" = "تم العثور على Data Matrix، لكنه لم يكن ملصق مستشعر Dexcom G6 صالحًا.";
+"sensorLabelPhotoUnreadable" = "تعذرت قراءة الصورة المحددة.";
+"sensorCodeMetadata" = "رمز المستشعر";
+"scannedSensorLabelCode" = "رمز الملصق الممسوح";
+"noCodeSensorSessionValue" = "0000 (جلسة بدون رمز)";
+"sensorCodeUnknown" = "غير معروف";
+"sensorSessionOrigin" = "مصدر الجلسة";
+"sensorSessionOriginUnknown" = "غير معروف";
+"sensorSessionOriginAwaitingTransmitter" = "في انتظار جهاز الإرسال";
+"sensorSessionOriginStartedByApp" = "بدأت بواسطة xDrip4iOS";
+"sensorSessionOriginExistingAdopted" = "تم اعتماد جلسة موجودة";
+"sensorSessionOriginTransmitterDetected" = "تم اكتشافها من جهاز الإرسال";
+"sensorSessionOriginRejected" = "تم رفض طلب البدء";

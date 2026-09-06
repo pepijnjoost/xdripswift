@@ -1,0 +1,195 @@
+"presnooze" = "Snooze";
+"sensor" = "Capteur";
+"calibrate" = "Calibrer";
+"lock" = "Verrouillé";
+"unlock" = "Déverrouillé";
+"screenlocktitle" = "Verrouillage d'écran activé";
+"screenlockinfo" = "Cette option maintiendra votre écran éveillé jusqu'à ce que vous changiez d'application ou sélectionniez déverrouillé.\r\n\nIl est conseillé de laisser le téléphone sur son chargeur pour éviter que la batterie ne se décharge.";
+"statusactiontitle" = "Statut";
+"scanbluetoothdeviceactiontitle" = "Scanner le transmetteur";
+"forgetbluetoothdeviceactiontitle" = "Oublier le transmetteur";
+"startsensor" = "Débuter Capteur";
+"stopsensor" = "Arrêter Capteur";
+"startsensortimeinfo" = "In the next dialogs, you will need to set the date and time the sensor was inserted. It is important that you set the date and time as correct as possible.";
+"scanbluetoothdeviceongoing" = "Scan en cours du transmetteur...";
+"bluetoothisnoton" = "Bluetooth n'est pas actif. Allumez avant le bluetooth first et retentez";
+"bluetoothIsNotAuthorized" = "Vous n'avez pas donné l'autorisation d'utiliser le Bluetooth à %@. Allez dans les réglages, trouver %@ et autorisez le Bluetooth";
+"startScanningInfo" = "Scan débuté.\n\nLaissez %@ ouvert en premier plan jusqu'à ce qu'une connexion soit faite.\n\n(Inutile de désactiver le verrouillage automatique. Ne pressez pas le bouton Home et ne verrouillez pas votre iPhone";
+"sensorstart" = "Capteur démarré";
+"notstarted" = "Non démarré";
+"notknown" = "Inconnu";
+"lastconnection" = "Dernière Connexion";
+"transmitterbatterylevel" = "Niveau de batterie (Transmitteur)";
+"ago" = "avant";
+"licenseinfo" = "This program is free software distributed under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or any later version.\r\n\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY.\r\n\nSee http://www.gnu.org/licenses/gpl.txt for more details.\r\n\r\nInfo: ";
+"info" = "Informations";
+"transmitterinfo" = "Tout d'abord, allez sur l'écran Bluetooth où vous pourrez ajouter et scanner votre transmetteur.\r\n\nPuis revenir sur l'écran d'accueil pour démarrer le capteur.";
+"startsensorbeforecalibration" = "Vous ne pouvez pas calibrer tant que le capteur n'est pas démarré.";
+"theresNoCGMTransmitterActive" = "Vous ne pouvez pas calibrer tant qu'un transmetteur n'est pas disponible.";
+"theremustbeareadingbeforecalibration" = "Il est nécessaire de disposer de deux lectures de glycémie pour calibrer. Vous serez averti pour cette calibration.";
+"sensornotdetected" = "Le capteurt n'a pas été détecté. Vérifiez le positionnement de votre transmetteur à proximité du capteur.";
+"transmitternotpaired" = "Le transmetteur n'est pas appareillé avec votre iPhone. Ouvrir l'application.";
+"transmitterpairingtoolate" = "Trop tard ! Le transmetteur est déjà deconnecté. Vous devez à nouveau appareillé votre transmetteur dans quelques minutes.";
+"transmitterpairingsuccessful" = "Le transmetteur a été correctement appareillé.";
+"transmitterpairingattempttimeout" = "Le transmetteur n'a pas répondu à la demande d'appareillage.";
+"success" = "Réussi";
+"failed" = "Echec";
+"dexcomBatteryTooLow" = "La batterie du transmetteur est trop faible!";
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+/////   Translation needed - remove this header after translation                       /////
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+/// When user clicks stop sensor, ask confirmation
+"stopSensorConfirmation" = "Are you sure you want to stop the sensor?";
+
+/// When user needs to enter sensor code, to start firefly sensor
+"enterSensorCode" = "If you don't know the sensor code, leave this empty to use 0000. Pressing OK without a code will use 0000 as the sensor code, or will just capture the current session if one is already started.";
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+/////   Translation needed - remove this header after translation                       /////
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+/// status info : literally 'Sensor End'
+"sensorend" = "Sensor Ends";
+
+"calibrationNotNecessary" = "Le menu calibrations manuelles n'est pas disponible si vous utilisez l'algorithme natif.\n\nPour calibrer vous pouvez passer à l'algorithme xDrip dans le menu de l'émetteur.";
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+/////   Translation needed - remove this header after translation                       /////
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+/// nightscout is not enabled
+"nightscoutNotEnabled" = "Nightscout is disabled";
+
+/// After clicking scan button, this message will appear
+"hidingUrlForXSeconds" = "Hiding URL for %@s...";
+
+/// no sensor data is available
+"noSensorData" = "No sensor data";
+
+/// status info : literally 'Sensor Duration'
+"sensorDuration" = "Sensor Duration";
+
+/// nightscout is not enabled
+"nightscoutURLMissing" = "URL missing";
+
+/// ask the user to disconnect and reconnect the sensor
+"reconnectLibreDataSource" = "Disconnect and reconnect Libre sensor";
+
+/// username and/or password is missing for librelinkup
+"followerAccountCredentialsMissing" = "Username/password missing";
+
+/// no data source is enabled or connected
+"noDataSourceConnected" = "No CGM data source connected";
+
+"postProcessingFiveMinuteReadings" = "5-minute readings";
+"postProcessingAlgorithm" = "Algorithm";
+"sensorLifetimeRemainingFormat" = "%@ restants";
+"postProcessingAlgorithmSavitzkyGolay" = "Savitzky-Golay";
+
+"sensorManagementNoiseTitle" = "Bruit du capteur";
+"sensorManagementNoiseShortTerm" = "30 dernières minutes";
+"sensorManagementNoiseLongTerm" = "4 dernières heures";
+"sensorManagementNoiseCollecting" = "Collecte des données";
+"sensorManagementNoiseLow" = "Faible";
+"sensorManagementNoiseElevated" = "Élevé";
+"sensorManagementNoiseVeryHigh" = "Très élevé";
+"sensorManagementNoiseExtreme" = "Extrême";
+"sensorManagementNoiseFlatline" = "Le capteur est probablement défaillant.";
+"sensorNoiseWarningExtremeTitle" = "Bruit extrême du capteur";
+"sensorNoiseWarningPersistentTitle" = "Bruit persistant du capteur";
+"sensorNoiseWarningFlatlineTitle" = "Le signal du capteur est plat";
+"sensorNoiseHistoryTitle" = "Historique du bruit";
+"sensorNoiseHistoryCurrentTitle" = "Mesures actuelles";
+"sensorNoiseHistoryChartTitle" = "Évolution du bruit";
+"sensorNoiseHistoryRangeTitle" = "Période";
+"sensorNoiseHistoryDayRange" = "1d";
+"sensorNoiseHistoryThreeDayRange" = "3 j";
+"sensorNoiseHistoryWeekRange" = "7 j";
+"sensorNoiseHistoryAllRange" = "Tout";
+"sensorNoiseHistoryShortCompact" = "30 min";
+"sensorNoiseHistoryLongCompact" = "4 h";
+"sensorNoiseHistoryLoading" = "Création de l’historique du capteur";
+"sensorNoiseHistoryNoDataTitle" = "Pas encore assez de données de bruit";
+"sensorNoiseHistoryNoDataMessage" = "Le graphique apparaîtra après la collecte d’un nombre suffisant de mesures du capteur.";
+"sensorNoiseHistoryChartAccessibility" = "Graphique de l’historique du bruit du capteur";
+"pumpBattery" = "Batterie";
+"pumpReservoir" = "Réservoir";
+"sensorManagementSessionLifetime" = "Elapsed / Remaining";
+"sensorManagementSessionDetails" = "Session Details";
+"sensorManagementCalibrationOpenTitle" = "Calibration Details";
+"sensorManagementCGMType" = "CGM Type";
+"sensorManagementLastCalibration" = "Dernière";
+"sensorManagementStatusActive" = "Sensor Active";
+"sensorManagementStarted" = "Started";
+"sensorManagementEnds" = "Ends";
+"sensorManagementCalibrationValue" = "Valeur de calibration";
+"sensorManagementCalibrationPending" = "En attente...";
+"sensorManagementCalibrationStableTrend" = "Tendance stable";
+"sensorManagementCalibrationSlightlyLow" = "Légèrement bas";
+"sensorManagementCalibrationSlightlyHigh" = "Légèrement haut";
+"sensorManagementCalibrationNoReading" = "Aucune mesure";
+"sensorManagementCalibrationGood" = "Bon";
+"sensorManagementCalibrationNoTrend" = "Aucune tendance";
+"sensorManagementCalibrationStale" = "Obsolète";
+"sensorManagementCalibrationStable" = "Stable";
+"sensorManagementCalibrationFallingFast" = "Baisse rapide";
+"sensorManagementCalibrationFalling" = "En baisse";
+"sensorManagementCalibrationRisingFast" = "Hausse rapide";
+"sensorManagementCalibrationRising" = "En hausse";
+"sensorManagementCalibrationFlatline" = "Ligne plate";
+"sensorManagementCalibrationBG" = "Glycémie";
+"sensorManagementCalibrationRaw" = "Brut";
+"sensorManagementCalibrationSlope" = "Pente";
+"sensorManagementCalibrationIntercept" = "Ordonnée";
+"sensorManagementCalibrationReadinessBad" = "La calibration risque d’être imprécise pour le moment. Veuillez patienter.";
+"sensorManagementCalibrationReadinessCaution" = "La calibration peut être moins fiable. Il peut être préférable d’attendre.";
+"sensorManagementCalibrationReadinessGood" = "C’est le bon moment pour calibrer.";
+"sensorManagementCalibrationSafetyFooter" = "Ne calibrez que si vous savez le faire en toute sécurité.";
+"sensorManagementLargeCalibrationDifferenceWarningFormat" = "Cette calibration risque de ne pas fonctionner. Essayez de limiter chaque modification de calibration à %@ maximum à la fois.";
+"sensorHealthPersistentNoiseTitle" = "Bruit du capteur très élevé";
+"sensorHealthPersistentNoiseGuidance" = "Bruit très élevé depuis 12 heures. Envisagez de remplacer le capteur si cela continue.";
+"sensorHealthFlatlineTitle" = "Le signal du capteur est plat";
+"sensorHealthFlatlineGuidance" = "Mesures inchangées depuis 30 minutes. Cela indique généralement que le capteur est défaillant/expiré.";
+"sensorHealthTemporaryIssueTitle" = "Problème temporaire du capteur";
+"sensorHealthTemporaryIssueGuidance" = "Problème temporaire du capteur depuis 3 heures. Vérifiez avec un lecteur et suivez les recommandations du fabricant.";
+"sensorHealthSensorFailedTitle" = "Capteur défaillant";
+"sensorHealthSensorFailedGuidance" = "Défaillance du capteur signalée. Remplacez le capteur.";
+"sensorHealthTransmitterFailedTitle" = "Défaillance du transmetteur";
+"sensorHealthTransmitterFailedGuidance" = "Défaillance du transmetteur signalée. Vérifiez-le ou remplacez-le.";
+"connectingToCGM" = "Connexion au CGM...";
+"reconnectingToCGM" = "Reconnexion au CGM...";
+
+/* Dexcom G6 sensor-label scanning */
+"scanWithCamera" = "Scanner avec l’appareil photo";
+"chooseSensorLabelPhoto" = "Choisir une photo";
+"readingSensorLabel" = "Lecture de l’étiquette du capteur...";
+"scanSensorLabel" = "Scanner l’étiquette du capteur";
+"sensorCodeScannerGuidance" = "Placez le Data Matrix dans le cadre.";
+"sensorCodeScannerTorch" = "Lampe";
+"cameraAccessRequired" = "Accès à l’appareil photo requis";
+"cameraAccessRequiredMessage" = "Autorisez l’accès à l’appareil photo dans Réglages, saisissez le code manuellement ou choisissez une photo.";
+"openSettings" = "Ouvrir Réglages";
+"cameraUnavailable" = "Appareil photo indisponible";
+"cameraUnavailableMessage" = "Saisissez le code du capteur manuellement ou choisissez une photo.";
+"sensorInformationTitle" = "Informations du capteur";
+"sensorLotNumber" = "Numéro de lot";
+"sensorSerialNumberMetadata" = "Numéro de série du capteur";
+"sensorLabelReviewFooter" = "Vérifiez les informations décodées avant de démarrer le capteur.";
+"sensorLabelScanFailed" = "Étiquette du capteur non lue";
+"multipleSensorLabelsFound" = "La photo contient plusieurs étiquettes de capteur. Choisissez une photo avec une seule étiquette.";
+"noSensorLabelFound" = "Aucune étiquette de capteur Dexcom G6 valide n’a été trouvée sur la photo.";
+"invalidSensorLabelFound" = "Un Data Matrix a été trouvé, mais ce n’était pas une étiquette de capteur Dexcom G6 valide.";
+"sensorLabelPhotoUnreadable" = "La photo sélectionnée n’a pas pu être lue.";
+"sensorCodeMetadata" = "Code du capteur";
+"scannedSensorLabelCode" = "Code de l’étiquette scannée";
+"noCodeSensorSessionValue" = "0000 (Session sans code)";
+"sensorCodeUnknown" = "Inconnu";
+"sensorSessionOrigin" = "Origine de la session";
+"sensorSessionOriginUnknown" = "Inconnue";
+"sensorSessionOriginAwaitingTransmitter" = "En attente du transmetteur";
+"sensorSessionOriginStartedByApp" = "Démarrée par xDrip4iOS";
+"sensorSessionOriginExistingAdopted" = "Session existante adoptée";
+"sensorSessionOriginTransmitterDetected" = "Détectée par le transmetteur";
+"sensorSessionOriginRejected" = "Demande de démarrage rejetée";

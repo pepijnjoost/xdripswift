@@ -1,0 +1,201 @@
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+/////   Translation needed - remove this header after translation                       /////
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+/// text in button top right, this button will disable automatic connect
+"donotconnect" = "Stop Scanning";
+
+/// BluetoothPeripheral view, this is a name of a BluetoothPeripheral assigned by the user, to recognize the device
+"bluetoothPeripheralAlias" = "Alias";
+
+/// 
+"battery" = "Battery";
+
+/// cell text, shows when last reset was done, if known. Only for Dexcom
+"lastReset" = "Last Reset";
+
+/// button text, to connect
+"connect" = "Connect";
+
+/// when M5Stack is shown, title of the cell with the address
+"address" = "Address";
+
+/// User tries to add a CGM or connect an already existing CGM, while in follower mode.
+"cannotActiveCGMInFollowerMode" = "You cannot activate or connect to a CGM whilst in Follower Mode.";
+
+/// Bluetooth Peripheral view, when user clicks alias field
+"selectAliasText" = "Choose an alias for this bluetooth device, the name will be shown in the app and is easier for you to recognize";
+
+/// Bluetooth Peripheral view, when user clicks the trash button - this is not the complete sentence, it will be followed either by 'name' or 'alias', depending on the availability of an alias
+"confirmDeletionPeripheral" = "Do you want to delete bluetooth device: ";
+
+/// BluetoothPeripheral view, text of the cell with the sensor type (only used for Libre)
+"sensorType" = "Sensor Type";
+
+/// BluetoothPeripheral view, text of the cell with the serial number (this is not the sensor serial number
+"serialNumber" = "Serial Number";
+
+/// BluetoothPeripheral view, text of the cell with the sensor serial number
+"SensorSerialNumber" = "Sensor Serial Number";
+
+/// Bluetooth Peripheral view, when user clicks alias field
+"aliasAlreadyExists" = "There is already a bluetooth device with this alias";
+
+/// 
+"notConnected" = "Not Connected";
+
+/// To give result about transitter result in notification body
+"transmitterResultResult" = "Transmitter Reset Result";
+
+/// row in bluetoothperipheral view, title
+"bootLoader" = "Bootloader";
+
+/// when Bluetooth Peripheral is shown, connection status, connected
+"connected" = "Connected";
+
+/// text in status row, if scanning ongoing
+"scanning" = "Scanning";
+
+/// cell text, if user needs to set the transmitter id
+"needsTransmitterId" = "Missing Transmitter ID";
+
+/// cell text, shows when last reset was done, if known. Only for Dexcom
+"lastResetNotKnown" = "Last Reset Timestamp is not known";
+
+/// text in status rown, when not connect but app is trying to connect
+"tryingToConnect" = "Scanning";
+
+/// button text, to disconnect
+"disconnect" = "Disconnect";
+
+/// text in status row, if ready to start scanning
+"readyToScan" = "Ready to Scan";
+
+/// text in button to start scanning
+"scan" = "Scan";
+"medtrumNanoPumpScanNoticeTitle" = "Povezava s črpalko Medtrum Nano";
+"medtrumNanoPumpScanNoticeMessage" = "Ta možnost se poveže s črpalko Medtrum Nano in ne neposredno z oddajnikom Nano CGM.\n\nPred iskanjem se prepričajte, da EasyPatch deluje, je povezan s črpalko in prejema trenutne vrednosti CGM.\n\nEasyPatch mora ves čas delovati in še naprej prejemati vrednosti.";
+"libre2ScanNoticeTitle" = "Bluetooth aplikacije Libre";
+"libre2ScanNoticeMessage" = "Pred iskanjem v nastavitvah iPhona onemogočite dovoljenje Bluetooth za aplikacijo Libre.\n\nDovoljenje Bluetooth za aplikacijo Libre mora biti ves čas onemogočeno. V nasprotnem primeru lahko aplikacija Libre prevzame povezavo s senzorjem in tej aplikaciji prepreči prejemanje vrednosti.";
+"dexcomG6ScanNoticeTitle" = "Povezava aplikacije Dexcom";
+"dexcomG6ScanNoticeMessage" = "Pred iskanjem prisilno zaprite aplikacijo Dexcom ali onemogočite njeno dovoljenje Bluetooth.\n\nAplikacija Dexcom ne sme biti povezana z oddajnikom, medtem ko ta aplikacija išče ali prejema vrednosti.";
+"dexcomG7ScanNoticeTitle" = "Potrebna je aplikacija Dexcom G7";
+"dexcomG7ScanNoticeMessage" = "Pred iskanjem se prepričajte, da aplikacija Dexcom G7 deluje v ozadju, je povezana s senzorjem in prejema trenutne vrednosti glukoze.\n\nAplikacija Dexcom G7 mora ves čas delovati in še naprej prejemati vrednosti.";
+
+/// cell text, where the disconnection timestamp is shown
+"disConnectedAt" = "Disconnected At";
+
+/// text in status row, when not connected and app is not scanning
+"notTryingToConnect" = "Not Scanning";
+
+/// when Bluetooth Peripheral is shown, title of the cell with the status
+"status" = "Status";
+
+/// cell text, where the connection timestamp is shown
+"connectedAt" = "Connected At";
+
+/// cell text, where user can select to reset a transmitter at next connect. Only for Dexcom
+"resetRequired" = "Reset Transmitter";
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+/////   Translation needed - remove this header after translation                       /////
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+/// Dexcom bluetooth screen. Is another app used in parallel or not
+"useOtherDexcomApp" = "Način soobstoja";
+"useOtherDexcomAppCoexistenceFooter" = "Način soobstoja nam omogoča delovanje z drugo aplikacijo, na primer Dexcom ali CamAPS. Ta aplikacija mora še naprej delovati v ozadju.";
+"useOtherDexcomAppPrimaryFooter" = "Primarni način se poveže kot glavna aplikacija in nadzoruje povezavo.";
+"runningInCoexistenceMode" = "Deluje v načinu soobstoja";
+"runningInPrimaryMode" = "Deluje v primarnem načinu";
+
+/// Disconnect transmitter, title
+"confirmDisconnectTitle" = "Confirm Disconnect";
+
+/// Confirm that the user wants to really disconnect the transmitter, title
+"confirmDisconnectMessage" = "Click 'Disconnect' to confirm that you really want to disconnect from the transmitter.";
+
+/// cell text, sensor start time
+"sensorStartDate" = "Sensor Started";
+
+/// cell text, transmitter start time
+"transmittterStartDate" = "Transmitter Started";
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+/////   Translation needed - remove this header after translation                       /////
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+/// Sensor scan successful, title
+"nfcScanSuccessfulTitle" = "✅ Sensor Scan Successful!";
+
+/// text to inform the user that multi-point calibration is an advanced option and could be dangerous if used incorrectly
+"nonFixedSlopeWarning" = "Multi-point calibration is an advanced feature.\n\nPlease do not use this feature until you have read the calibration section of the online help and understand how it works.";
+
+/// Ask if the user wants to try and scan the sensor again
+"nfcScanFailedMessage" = "Please scan again";
+
+/// Sensor scan error, title
+"nfcScanFailedTitle" = "⚠️ Sensor Scan Failed";
+
+/// Tell the user the scan has failed and we're retrying several times
+"nfcErrorMessageScanFailed" = "Sensor scan has failed";
+
+/// text in status row, when waiting for a successful NFC scan before starting bluetooth scanning
+"nfcScanNeeded" = "NFC scan needed";
+
+/// Tell the user the scan has failed and we're retrying several times
+"nfcErrorMessageScanErrorRetrying" = "Sensor scan error\n\nRetrying... # ";
+
+/// sensor warm-up text
+"warmingUpUntil" = "Warming up until";
+
+/// Scan again button
+"nfcScanFailedScanAgainButton" = "Scan Again";
+
+/// Tell the user the scan was successful and to just wait now for connection
+"nfcScanSuccessfulMessage" = "Click OK and just wait to allow the Libre sensor to finish connecting via bluetooth.\n\nIn a short while the status should change to 'Connected'.";;
+
+/// Bluetooth peripheral Read Success screen. Section title for the hourly timeline
+"readSuccessLast24Hours" = "Zadnjih 24 ur";
+/// Bluetooth peripheral Read Success screen. Summary of received readings out of expected readings
+"readSuccessReadingsReceived" = "Prejetih %d od %d odčitkov";
+/// Bluetooth peripheral Read Success screen. Footer explaining how expected readings are calculated
+"readSuccessCadenceFooter" = "Pričakovani odčitki temeljijo na opaženi kadenci oddajnika za %@.";
+/// Bluetooth peripheral Read Success screen. Timeline legend label for good read success
+"readSuccessLegendGood" = "Dobro";
+/// Bluetooth peripheral Read Success screen. Timeline legend label for reduced read success
+"readSuccessLegendLow" = "Nizko";
+/// Bluetooth peripheral Read Success screen. Timeline legend label for poor read success
+"readSuccessLegendPoor" = "Slabo";
+/// Bluetooth peripheral Read Success screen. Timeline legend label when no readings are expected or available
+"readSuccessLegendNoData" = "Ni podatkov";
+/// Bluetooth peripheral Read Success screen. Accessibility label for timeline hours with no expected readings
+"readSuccessNoReadingsExpected" = "Ni pričakovanih odčitkov";
+/// Bluetooth peripheral Read Success screen. Accessibility label for an hourly timeline bucket
+"readSuccessTimelineAccessibility" = "%0.1f odstotka, %d od %d odčitkov";
+
+/// Bluetooth peripheral screen. Row title and screen title for read success information
+"readSuccess" = "Uspešnost odčitkov";
+/// Bluetooth peripheral Read Success screen. Timeline axis label for the current time
+"readSuccessNow" = "Zdaj";
+"scanningForTransmitter" = "Iskanje...";
+"connecting" = "Povezovanje";
+"connectingToTransmitter" = "Connecting...";
+"reconnecting" = "Ponovno povezovanje";
+"reconnectingToTransmitter" = "Ponovno povezovanje...";
+"waiting" = "Čakanje...";
+
+/* Dexcom G6 Bluetooth authentication slot */
+"dexcomG6BluetoothSlot" = "Kanal Bluetooth";
+"dexcomG6MobileAppSlot" = "Mobilna aplikacija (Privzeto)";
+"dexcomG6MobileAppSlotShort" = "Mobilna aplikacija";
+"dexcomG6MedicalDeviceSlot" = "Sprejemnik ali črpalka (Poskusno)";
+"dexcomG6MedicalDeviceSlotShort" = "Črpalka";
+"dexcomG6MobileAppSlotFooter" = "Kanal Mobilna aplikacija je privzet za telefonske povezave.";
+"dexcomG6MedicalDeviceSlotFooter" = "Kanal Sprejemnik ali črpalka je običajno rezerviran za sprejemnik Dexcom ali združljivo črpalko. Če ga uporablja ta aplikacija, ostane kanal Mobilna aplikacija na voljo za telefon ali drugo napravo.";
+"dexcomG6BluetoothSlotUnavailableInCoexistenceMode" = "Ni na voljo v načinu soobstoja";
+"dexcomG6MedicalDeviceSlotWarning" = "Kanal Sprejemnik ali črpalka je običajno rezerviran za sprejemnik Dexcom ali združljivo črpalko. Če ga izberete, se ta naprava morda ne bo mogla povezati.\n\nUporaba kanala Sprejemnik ali črpalka naj se šteje samo za poskusno. Izbira začne veljati ob naslednjem preverjanju pristnosti.";
+"dexcomG6AnubisSlot" = "Kanal 3 (Anubis, poskusno)";
+"dexcomG6AnubisSlotShort" = "Kanal 3";
+"dexcomG6AnubisSlotFooter" = "Kanal 3 je na voljo samo pri oddajnikih Anubis. Je poskusni in pušča kanala Mobilna aplikacija ter Sprejemnik ali črpalka na voljo drugim napravam.";
+"dexcomG6AnubisSlotWarning" = "Kanal 3 je poskusni kanal, ki je na voljo samo pri oddajnikih Anubis.\n\nKanal 3 uporabljajte samo za preizkušanje. Izbira začne veljati ob naslednjem preverjanju pristnosti.";

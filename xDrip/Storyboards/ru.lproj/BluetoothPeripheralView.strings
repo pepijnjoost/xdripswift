@@ -1,0 +1,128 @@
+"address" = "Адрес";
+"status" = "Статус";
+"connected" = "Подключено";
+"notConnected" = "Нет соединения";
+"donotconnect" = "Остановить сканирование";
+"selectAliasText" = "Выберите псевдоним для этого Bluetooth-устройства, имя будет отображаться в приложении, и вам будет легче его распознать.";
+"aliasAlreadyExists" = "Bluetooth-устройство с таким псевдонимом уже существует.";
+"confirmDeletionPeripheral" = "Вы хотите удалить устройство Bluetooth: ";
+"bluetoothPeripheralAlias" = "Псевдоним";
+"SensorSerialNumber" = "Серийный номер";
+"sensorType" = "Тип сенсора";
+"serialNumber" = "Серийный номер сенсора";
+"battery" = "Батарея";
+"needsTransmitterId" = "Отсутствует идентификатор трансмиттера";
+"scan" = "Сканировать";
+"medtrumNanoPumpScanNoticeTitle" = "Подключение к помпе Medtrum Nano";
+"medtrumNanoPumpScanNoticeMessage" = "Эта опция подключается к помпе Medtrum Nano, а не напрямую к передатчику Nano CGM.\n\nПеред сканированием убедитесь, что EasyPatch запущено, подключено к помпе и получает актуальные значения CGM.\n\nEasyPatch должно постоянно работать и продолжать получать значения.";
+"libre2ScanNoticeTitle" = "Bluetooth приложения Libre";
+"libre2ScanNoticeMessage" = "Перед сканированием отключите разрешение Bluetooth для приложения Libre в настройках iPhone.\n\nРазрешение Bluetooth для приложения Libre должно всегда оставаться отключённым. В противном случае приложение Libre может перехватить подключение к сенсору и помешать этому приложению получать значения.";
+"dexcomG6ScanNoticeTitle" = "Подключение приложения Dexcom";
+"dexcomG6ScanNoticeMessage" = "Перед сканированием принудительно закройте приложение Dexcom или отключите для него разрешение Bluetooth.\n\nПриложение Dexcom не должно быть подключено к передатчику, пока это приложение выполняет сканирование или получает значения.";
+"dexcomG7ScanNoticeTitle" = "Требуется приложение Dexcom G7";
+"dexcomG7ScanNoticeMessage" = "Перед сканированием убедитесь, что приложение Dexcom G7 работает в фоновом режиме, подключено к сенсору и получает актуальные значения глюкозы.\n\nПриложение Dexcom G7 должно постоянно работать и продолжать получать значения.";
+"readyToScan" = "Готов к сканированию";
+"scanning" = "Сканирование";
+"disconnect" = "Отключить";
+"tryingToConnect" = "Сканирование";
+"notTryingToConnect" = "Не сканирует";
+"connect" = "Соединение";
+"connectedAt" = "Подключено в";
+"disConnectedAt" = "Отключено в";
+"resetRequired" = "Перезапустить Transmitter";
+"lastReset" = "Последний сброс";
+"lastResetNotKnown" = "Временная метка последнего сброса неизвестна";
+"transmitterResultResult" = "Результат сброса сенсора";
+"bootLoader" = "Загрузчик";
+"cannotActiveCGMInFollowerMode" = "Вы не можете активировать CGM в режиме ведомого";
+"confirmDisconnectTitle" = "Подтвердить отключение";
+"confirmDisconnectMessage" = "Нажмите 'Отключить', чтобы подтвердить, что вы действительно хотите отключиться от передатчика.";
+"transmitterStartDate" = "Запуск передатчика";
+"sensorStartDate" = "Запуск датчика";
+"useOtherDexcomApp" = "Режим совместной работы";
+"useOtherDexcomAppCoexistenceFooter" = "Режим совместной работы позволяет нам работать с другим приложением, например Dexcom или CamAPS. Это приложение должно продолжать работать в фоновом режиме.";
+"useOtherDexcomAppPrimaryFooter" = "Основной режим подключается как главное приложение и управляет соединением.";
+"runningInCoexistenceMode" = "Работает в режиме совместной работы";
+"runningInPrimaryMode" = "Работает в основном режиме";
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+/////   Translation needed - remove this header after translation                       /////
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+/// Sensor scan successful, title
+"nfcScanSuccessfulTitle" = "✅ Sensor Scan Successful!";
+
+/// text to inform the user that multi-point calibration is an advanced option and could be dangerous if used incorrectly
+"nonFixedSlopeWarning" = "Multi-point calibration is an advanced feature.\n\nPlease do not use this feature until you have read the calibration section of the online help and understand how it works.";
+
+/// Ask if the user wants to try and scan the sensor again
+"nfcScanFailedMessage" = "Please scan again";
+
+/// Sensor scan error, title
+"nfcScanFailedTitle" = "⚠️ Sensor Scan Failed";
+
+/// Tell the user the scan has failed and we're retrying several times
+"nfcErrorMessageScanFailed" = "Sensor scan has failed";
+
+/// text in status row, when waiting for a successful NFC scan before starting bluetooth scanning
+"nfcScanNeeded" = "NFC scan needed";
+
+/// Tell the user the scan has failed and we're retrying several times
+"nfcErrorMessageScanErrorRetrying" = "Sensor scan error\n\nRetrying... # ";
+
+/// cell text, transmitter start time
+"transmittterStartDate" = "Transmitter Started";
+
+/// sensor warm-up text
+"warmingUpUntil" = "Warming up until";
+
+/// Scan again button
+"nfcScanFailedScanAgainButton" = "Scan Again";
+
+/// Tell the user the scan was successful and to just wait now for connection
+"nfcScanSuccessfulMessage" = "Click OK and just wait to allow the Libre sensor to finish connecting via bluetooth.\n\nIn a short while the status should change to 'Connected'.";;
+
+/// Bluetooth peripheral Read Success screen. Section title for the hourly timeline
+"readSuccessLast24Hours" = "Последние 24 часа";
+/// Bluetooth peripheral Read Success screen. Summary of received readings out of expected readings
+"readSuccessReadingsReceived" = "Получено %d из %d показаний";
+/// Bluetooth peripheral Read Success screen. Footer explaining how expected readings are calculated
+"readSuccessCadenceFooter" = "Ожидаемые показания основаны на наблюдаемой частоте передатчика для %@.";
+/// Bluetooth peripheral Read Success screen. Timeline legend label for good read success
+"readSuccessLegendGood" = "Хорошо";
+/// Bluetooth peripheral Read Success screen. Timeline legend label for reduced read success
+"readSuccessLegendLow" = "Низкий";
+/// Bluetooth peripheral Read Success screen. Timeline legend label for poor read success
+"readSuccessLegendPoor" = "Плохо";
+/// Bluetooth peripheral Read Success screen. Timeline legend label when no readings are expected or available
+"readSuccessLegendNoData" = "Нет данных";
+/// Bluetooth peripheral Read Success screen. Accessibility label for timeline hours with no expected readings
+"readSuccessNoReadingsExpected" = "Показания не ожидались";
+/// Bluetooth peripheral Read Success screen. Accessibility label for an hourly timeline bucket
+"readSuccessTimelineAccessibility" = "%0.1f процента, %d из %d показаний";
+
+/// Bluetooth peripheral screen. Row title and screen title for read success information
+"readSuccess" = "Успешность чтения";
+/// Bluetooth peripheral Read Success screen. Timeline axis label for the current time
+"readSuccessNow" = "Сейчас";
+"scanningForTransmitter" = "Поиск...";
+"connecting" = "Подключение";
+"connectingToTransmitter" = "Connecting...";
+"reconnecting" = "Переподключение";
+"reconnectingToTransmitter" = "Переподключение...";
+"waiting" = "Ожидание...";
+
+/* Dexcom G6 Bluetooth authentication slot */
+"dexcomG6BluetoothSlot" = "Канал Bluetooth";
+"dexcomG6MobileAppSlot" = "Мобильное приложение (По умолчанию)";
+"dexcomG6MobileAppSlotShort" = "Мобильное приложение";
+"dexcomG6MedicalDeviceSlot" = "Приёмник или помпа (Экспериментально)";
+"dexcomG6MedicalDeviceSlotShort" = "Помпа";
+"dexcomG6MobileAppSlotFooter" = "Канал «Мобильное приложение» используется по умолчанию для подключений телефона.";
+"dexcomG6MedicalDeviceSlotFooter" = "Канал «Приёмник или помпа» обычно зарезервирован для приёмника Dexcom или совместимой помпы. Если это приложение использует его, канал «Мобильное приложение» остаётся доступным для телефона или другого устройства.";
+"dexcomG6BluetoothSlotUnavailableInCoexistenceMode" = "Недоступно в режиме сосуществования";
+"dexcomG6MedicalDeviceSlotWarning" = "Канал «Приёмник или помпа» обычно зарезервирован для приёмника Dexcom или совместимой помпы. Его выбор может помешать подключению этого устройства.\n\nИспользование канала «Приёмник или помпа» следует считать исключительно экспериментальным. Выбор вступит в силу при следующей аутентификации.";
+"dexcomG6AnubisSlot" = "Канал 3 (Anubis, экспериментальный)";
+"dexcomG6AnubisSlotShort" = "Канал 3";
+"dexcomG6AnubisSlotFooter" = "Канал 3 доступен только в трансмиттерах Anubis. Он является экспериментальным и оставляет каналы «Мобильное приложение» и «Приёмник или помпа» доступными для других устройств.";
+"dexcomG6AnubisSlotWarning" = "Канал 3 — экспериментальный канал, доступный только в трансмиттерах Anubis.\n\nИспользуйте Канал 3 только для тестирования. Выбор вступит в силу при следующей аутентификации.";

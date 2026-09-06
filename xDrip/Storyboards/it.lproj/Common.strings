@@ -1,0 +1,233 @@
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+/////   Translation needed - remove this header after translation                       /////
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+/// literally 'OK'
+"common_Ok" = "OK";
+
+/// blood glucose unit in short, for text field title
+"common_bloodglucoseunit_short" = "BG Unit";
+
+/// for settings row, literally firmware
+"firmware" = "Firmware";
+
+/// literal translation needed
+"common_minute" = "min";
+
+/// on
+"on" = "On";
+
+/// red
+"red" = "red";
+
+/// mmol/l
+"common_mmol" = "mmol/L";
+
+/// the word LOW, in capitals
+"common_low" = "LOW";
+
+/// literal translation needed
+"common_day" = "day";
+
+/// 
+"off" = "Off";
+
+/// for settings row, literally hardware
+"hardware" = "Hardware";
+
+/// literal translation needed
+"common_week" = "week";
+
+/// to show the sensor status
+"sensorStatus" = "Sensor Status";
+
+/// can be used in several screens, just the words Bloodglucose unit
+"common_bloodglucoseunit" = "Blood Glucose Unit";
+
+/// literal translation needed
+"common_hours" = "hours";
+
+/// literally default, will be the name of default alerttypes that will be created during initial app launch
+"common_default" = "Default";
+
+/// literally add
+"add" = "Add";
+
+/// literal translation needed
+"common_hour" = "hour";
+
+/// yellow
+"yellow" = "yellow";
+
+/// literally update
+"update" = "Edit";
+
+/// 
+"delete" = "Delete";
+
+/// literally password
+"common_password" = "Password";
+
+/// literally no, without capital
+"no" = "No";
+
+/// green
+"green" = "green";
+
+/// name
+"name" = "Name";
+
+/// literal translation needed
+"common_minutes" = "mins";
+
+/// literally yes, without capital
+"yes" = "Sì";
+
+/// literally 'Cancel'
+"common_cancel" = "Cancel";
+
+/// literally warning
+"warning" = "Warning!";
+
+/// white
+"white" = "white";
+
+/// WiFi
+"WiFi" = "WiFi";
+
+/// mg/dl
+"common_mgdl" = "mg/dL";
+
+/// whenever invalid value is given by user somewhere in a field
+"invalidValue" = "Invalid Value";
+
+/// general usage
+"unknown" = "Unknown";
+
+/// the word HIGH, in capitals
+"common_high" = "HIGH";
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+/////   Translation needed - remove this header after translation                       /////
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+/// Where credentials need to be given, if either account or password is invalid (for the moment only applicable to Dexcom Share
+"invalidAccountOrPassword" = "Invalid account or password";
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+/////   Translation needed - remove this header after translation                       /////
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+/// the word today
+"common_todayshort" = "Today";
+
+/// the word high
+"common_statistics_high" = "High";
+
+/// phrase HbA1c
+"common_statistics_a1c" = "HbA1c";
+
+/// coefficient of variation
+"common_statistics_cv" = "CV";
+
+/// the word low
+"common_statistics_low" = "Low";
+
+/// literal translation needed
+"common_days" = "days";
+"common_landscape_comparingWithLast" = "Confronto con gli ultimi:";
+"common_landscape_comparisonDays" = "%d giorni";
+
+/// the word average
+"common_statistics_average" = "Average";
+
+/// literal translation needed
+"common_dayshort" = "d";
+
+/// the word today
+"common_today" = "Today";
+
+/// the words in range
+"common_statistics_inRange" = "In Range";
+
+/// literal translation needed
+"common_hourshort" = "h";
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+/////   Translation needed - remove this header after translation                       /////
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+/// don't show again
+"common_dontshowagain" = "Don't Show Again";
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+/////   Translation needed - remove this header after translation                       /////
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+/// the words in tight range
+"common_statistics_inTightRange" = "Tight Range";
+
+/// the words in user range
+"common_statistics_userRange" = "User Range";
+"common_statistics_title" = "Statistiche";
+"common_statistics_period" = "Periodo";
+"common_statistics_summary" = "Riepilogo";
+"common_statistics_trends" = "Tendenze";
+"common_statistics_daily" = "Giornaliero";
+"common_statistics_report" = "Report";
+"common_statistics_section" = "Sezione";
+"common_statistics_timeInRange" = "Tempo nell'Intervallo";
+"common_statistics_timeInTightRange" = "Tempo nell'Intervallo Stretto";
+"common_statistics_averageGlucose" = "Glicemia media";
+"common_statistics_gmi" = "GMI";
+"common_statistics_cgmEstimate" = "Stima CGM";
+"common_statistics_dataCapture" = "Acquisizione Dati";
+"common_statistics_targetLessThanOrEqual" = "Obiettivo <=%@";
+"common_statistics_targetGreaterThanOrEqual" = "Obiettivo >=%@";
+"common_statistics_ambulatoryGlucoseProfile" = "Profilo Ambulatoriale del Glucosio";
+"common_statistics_insufficientAGPData" = "Dati insufficienti per il grafico percentile AGP";
+"common_statistics_insufficientData" = "Dati insufficienti";
+"common_statistics_estimatedA1cTrend" = "Tendenza HbA1c stimata";
+"common_statistics_cvTrend" = "Tendenza CV";
+"common_statistics_dailyPattern" = "Andamento Giornaliero";
+"common_statistics_averageFormat" = "Media %@";
+"common_statistics_dailyPatternFooter" = "Le barre mostrano la percentuale giornaliera nell'intervallo 70-180 mg/dL. La linea tratteggiata indica l'obiettivo clinico del 70%.";
+"common_statistics_dailySummary" = "Riepilogo Giornaliero";
+"common_statistics_bestDay" = "Giorno Migliore";
+"common_statistics_mostLow" = "Più Basso";
+"common_statistics_mostHigh" = "Più Alto";
+"common_statistics_noDataTitle" = "Nessuna Statistica Disponibile";
+"common_statistics_noDataMessage" = "Non ci sono abbastanza dati CGM memorizzati per questo periodo.";
+"common_report_generateTitle" = "Genera Report";
+"common_report_generatingStatus" = "Generazione report clinico...";
+"common_report_generationFailedTitle" = "Generazione report non riuscita";
+"common_report_patientName" = "Nome Paziente";
+"common_report_patientNamePlaceholder" = "Nome paziente";
+"common_report_patientID" = "ID Paziente";
+"common_report_patientIDPlaceholder" = "Cartella clinica / ID paziente";
+"common_report_notSet" = "Non Impostato";
+"common_report_patientSection" = "Paziente";
+"common_report_patientFooter" = "I dati del paziente sono memorizzati localmente su questo dispositivo e stampati nell'intestazione del report.";
+"common_report_period" = "Periodo Report";
+"common_report_paperSize" = "Formato Carta";
+"common_report_language" = "Lingua";
+"common_report_passwordToOpen" = "Password di Apertura";
+"common_report_none" = "Nessuna";
+"common_report_options" = "Opzioni Report";
+"common_report_willBePasswordProtected" = "Il report sarà protetto da password";
+"common_report_willNotBePasswordProtected" = "Il report non sarà protetto da password";
+"common_report_passwordFieldPlaceholder" = "Password per aprire il PDF";
+"common_report_passwordConfirmationPlaceholder" = "Inserisci di nuovo la password";
+"common_report_passwordFooter" = "Questa password viene usata solo per il prossimo PDF generato e non viene memorizzata.";
+"common_report_notEnoughData" = "Dati insufficienti";
+"common_report_unableToPrepareTitle" = "Impossibile preparare il report";
+"common_report_shareAccessibility" = "Condividi Report";
+"common_report_periodTitleFormat" = "Report di %d giorni";
+"common_report_patientPeriodTitleFormat" = "%@ - %@";
+"common_report_passwordProtectionOpenError" = "Impossibile aprire il PDF del report per la protezione con password.";
+"common_report_passwordProtectionWriteError" = "Impossibile creare il PDF del report protetto da password.";
+"common_statistics_averageTDD" = "TDD Media";
+"common_statistics_averageCarbs" = "Carboidrati medi";
+"common_statistics_tempBasalDelta" = "Delta basale temporanea";
+"common_statistics_waitingForGlucoseData" = "In attesa dei dati glicemici...";

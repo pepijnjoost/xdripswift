@@ -1,0 +1,174 @@
+"presnooze" = "Torkku";
+"sensor" = "Sensori";
+"calibrate" = "Kalibroi";
+"statusactiontitle" = "Status";
+"scanbluetoothdeviceactiontitle" = "Skannaa lähetin";
+"forgetbluetoothdeviceactiontitle" = "Unohda lähetin";
+"startsensor" = "Aloita sensori";
+"stopsensor" = "Lopeta sensori";
+"startsensortimeinfo" = "Seuraavissa valintaikkunoissa sinun on asetettava päiväys ja aika, jolloin anturi on asetettu. On tärkeää, että asetat päivämäärän ja ajan mahdollisimman oikein. Tämä on tärkeää tarkkuuden kannalta.";
+"scanbluetoothdeviceongoing" = "Skannataan lähetintä...";
+"bluetoothisnoton" = "Bluetooth ei ole päällä. Kytke ensin bluetooth päälle ja yritä uudelleen.";
+"bluetoothIsNotAuthorized" = "Bluetoothia ei ole sallittu %@:lle. Mene asetuksiin, etsi %@ sovellus ja salli Bluetooth.";
+"startScanningInfo" = "Scanning Started.\n\nKeep %@ open in the foreground until a connection is made.\n\n(There's no need to turn off Auto-Lock. Just don't press the home button and don't lock your iPhone)";
+"sensorstart" = "Sensori aloitus";
+"notstarted" = "Ei aloitettu";
+"notknown" = "Tuntematon";
+"lastconnection" = "Viimeinen yhteys";
+"transmitterbatterylevel" = "Lähettimen varaustaso";
+"ago" = "sitten";
+"licenseinfo" = "This program is free software distributed under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or any later version.\r\n\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY.\r\n\nSee http://www.gnu.org/licenses/gpl.txt for more details.\r\n\r\nInfo: ";
+"info" = "Info";
+"transmitterinfo" = "Siirry ensin bluetooth näyttöön, jossa voit lisätä ja skannata lähettimen.\r\n\nPalaa sitten koti näyttöön  ja aloita sensori.";
+"startsensorbeforecalibration" = "Et voi kalibroida, koska sensoria ei ole aloitettu.";
+"theresNoCGMTransmitterActive" = "Et voi kalibroida, koska lähetintä ole yhdistetty.";
+"theremustbeareadingbeforecalibration" = "Tarvitaan vähintään kaksi lukemaa ennen kalibrointia. Sinua pyydetään kalibroimaan heti, kun lukema saapuu.";
+"sensornotdetected" = "Sensoria ei havaittu. Tarkista, onko lähetin hyvin sijoitettu sensoriin.";
+"transmitternotpaired" = "Lähetintä ei ole muodostettu pariksi tämän iPhonen kanssa. Avaa sovellus.";
+"transmitterpairingtoolate" = "Liian myöhäistä, yhteys lähettimeen on nyt katkaistu. Sinun pitäisi saada uusi pariliitospyyntö muutamassa minuutissa.";
+"transmitterpairingsuccessful" = "Lähettimen paritus onnistui.";
+"transmitterpairingattempttimeout" = "Lähetin ei vastannut pariliitospyyntöön.";
+"success" = "Onnistui";
+"failed" = "Epäonnistui";
+
+/// Text in button on home screen
+"unlock" = "Avaa";
+
+/// Text in button on home screen
+"lock" = "Lukitse";
+
+/// Screen Lock Title
+"screenlocktitle" = "Näytön lukitus käytössä";
+
+/// Info message to explain screen lock function
+"screenlockinfo" = "Tämä pitää näytön hereillä, kunnes siirryt toiseen sovellukseen tai napsautat Avaa.\r\n\nOn suositeltavaa, että pidät puhelin kytkettynä laturiin, jotta akku ei tyhjene.";
+
+/// When user clicks stop sensor, ask confirmation
+"stopSensorConfirmation" = "Oletko varma, että haluat pysäyttää sensorin?";
+
+/// When user needs to enter sensor code, to start firefly sensor
+"enterSensorCode" = "Jos et tiedä sensorin koodia, jätä tämä tyhjäksi käyttääksesi 0000. Jos painat OK ilman koodia, sensorikoodina käytetään 0000, tai nykyinen istunto vain otetaan käyttöön, jos se on jo alkanut.";
+
+/// status info : literally 'Sensor End'
+"sensorend" = "Sensori loppuu";
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+/////   Translation needed - remove this header after translation                       /////
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+/// if web oop enabled, and also if transmitter supports this, user clicks calibrate button, but calibration is not possible
+"calibrationNotNecessary" = "When using the native transmitter algorithm, manual calibration is not available.\n\nIf you want to calibrate, you can switch to the xDrip algorithm in the transmitter screen (if available).";
+
+/// nightscout is not enabled
+"nightscoutNotEnabled" = "Nightscout is disabled";
+
+/// After clicking scan button, this message will appear
+"hidingUrlForXSeconds" = "Hiding URL for %@s...";
+
+/// no sensor data is available
+"noSensorData" = "No sensor data";
+
+/// status info : literally 'Sensor Duration'
+"sensorDuration" = "Sensor Duration";
+
+/// nightscout is not enabled
+"nightscoutURLMissing" = "URL missing";
+
+/// ask the user to disconnect and reconnect the sensor
+"reconnectLibreDataSource" = "Disconnect and reconnect Libre sensor";
+
+/// Error message in case Dexcom G5 (and G6?) battery is too low. This is deteced by wrong G5 values 2096896
+"dexcomBatteryTooLow" = "The Transmitter battery is too low!";
+
+/// username and/or password is missing for librelinkup
+"followerAccountCredentialsMissing" = "Username/password missing";
+
+/// no data source is enabled or connected
+"noDataSourceConnected" = "No CGM data source connected";
+
+"postProcessingFiveMinuteReadings" = "5-minute readings";
+"postProcessingAlgorithm" = "Algorithm";
+"sensorLifetimeRemainingFormat" = "%@ jäljellä";
+"postProcessingAlgorithmSavitzkyGolay" = "Savitzky-Golay";
+
+"sensorManagementNoiseTitle" = "Sensorin kohina";
+"sensorManagementNoiseShortTerm" = "Viimeiset 30 minuuttia";
+"sensorManagementNoiseLongTerm" = "Viimeiset 4 tuntia";
+"sensorManagementNoiseCollecting" = "Kerätään tietoja";
+"sensorManagementNoiseLow" = "Matala";
+"sensorManagementNoiseElevated" = "Kohonnut";
+"sensorManagementNoiseVeryHigh" = "Erittäin korkea";
+"sensorManagementNoiseExtreme" = "Äärimmäinen";
+"sensorManagementNoiseFlatline" = "Sensori on todennäköisesti vikaantunut.";
+"sensorNoiseWarningExtremeTitle" = "Äärimmäinen sensorin kohina";
+"sensorNoiseWarningPersistentTitle" = "Jatkuva sensorin kohina";
+"sensorNoiseWarningFlatlineTitle" = "Sensorin signaali on tasainen";
+"sensorNoiseHistoryTitle" = "Kohinahistoria";
+"sensorNoiseHistoryCurrentTitle" = "Nykyiset mittaukset";
+"sensorNoiseHistoryChartTitle" = "Kohina ajan kuluessa";
+"sensorNoiseHistoryRangeTitle" = "Aikaväli";
+"sensorNoiseHistoryDayRange" = "1d";
+"sensorNoiseHistoryThreeDayRange" = "3 pv";
+"sensorNoiseHistoryWeekRange" = "7 pv";
+"sensorNoiseHistoryAllRange" = "Kaikki";
+"sensorNoiseHistoryShortCompact" = "30 min";
+"sensorNoiseHistoryLongCompact" = "4 t";
+"sensorNoiseHistoryLoading" = "Luodaan sensorihistoriaa";
+"sensorNoiseHistoryNoDataTitle" = "Kohinatietoja ei ole vielä riittävästi";
+"sensorNoiseHistoryNoDataMessage" = "Kaavio tulee näkyviin, kun sensorilukemia on kerätty riittävästi.";
+"sensorNoiseHistoryChartAccessibility" = "Sensorin kohinahistorian kaavio";
+"pumpBattery" = "Akku";
+"pumpReservoir" = "Säiliö";
+"sensorManagementSessionLifetime" = "Elapsed / Remaining";
+"sensorManagementSessionDetails" = "Session Details";
+"sensorManagementCalibrationOpenTitle" = "Calibration Details";
+"sensorManagementCGMType" = "CGM Type";
+"sensorManagementLastCalibration" = "Viimeisin";
+"sensorManagementStatusActive" = "Sensor Active";
+"sensorManagementStarted" = "Started";
+"sensorManagementEnds" = "Ends";
+"sensorHealthPersistentNoiseTitle" = "Erittäin voimakas anturikohina";
+"sensorHealthPersistentNoiseGuidance" = "Erittäin voimakasta kohinaa 12 tunnin ajan. Harkitse anturin vaihtamista, jos se jatkuu.";
+"sensorHealthFlatlineTitle" = "Anturin signaali on tasainen";
+"sensorHealthFlatlineGuidance" = "Lukemat eivät ole muuttuneet 30 minuuttiin. Tämä tarkoittaa yleensä, että anturi on vioittunut/vanhentunut.";
+"sensorHealthTemporaryIssueTitle" = "Tilapäinen anturiongelma";
+"sensorHealthTemporaryIssueGuidance" = "Tilapäinen anturiongelma 3 tunnin ajan. Tarkista verensokerimittarilla ja noudata valmistajan ohjeita.";
+"sensorHealthSensorFailedTitle" = "Anturi vioittunut";
+"sensorHealthSensorFailedGuidance" = "Anturivika ilmoitettu. Vaihda anturi.";
+"sensorHealthTransmitterFailedTitle" = "Lähetinvika";
+"sensorHealthTransmitterFailedGuidance" = "Lähetinvika ilmoitettu. Tarkista tai vaihda lähetin.";
+"connectingToCGM" = "Yhdistetään CGM-laitteeseen...";
+"reconnectingToCGM" = "Yhdistetään uudelleen CGM-laitteeseen...";
+
+/* Dexcom G6 sensor-label scanning */
+"scanWithCamera" = "Skannaa kameralla";
+"chooseSensorLabelPhoto" = "Valitse kuva";
+"readingSensorLabel" = "Luetaan anturin etikettiä...";
+"scanSensorLabel" = "Skannaa anturin etiketti";
+"sensorCodeScannerGuidance" = "Aseta Data Matrix kehyksen sisään.";
+"sensorCodeScannerTorch" = "Taskulamppu";
+"cameraAccessRequired" = "Kameran käyttöoikeus tarvitaan";
+"cameraAccessRequiredMessage" = "Salli kameran käyttö Asetuksissa, syötä koodi käsin tai valitse kuva.";
+"openSettings" = "Avaa Asetukset";
+"cameraUnavailable" = "Kamera ei ole käytettävissä";
+"cameraUnavailableMessage" = "Syötä anturikoodi käsin tai valitse kuva.";
+"sensorInformationTitle" = "Anturin tiedot";
+"sensorLotNumber" = "Eränumero";
+"sensorSerialNumberMetadata" = "Anturin sarjanumero";
+"sensorLabelReviewFooter" = "Tarkista puretut tiedot ennen anturin käynnistämistä.";
+"sensorLabelScanFailed" = "Anturin etikettiä ei luettu";
+"multipleSensorLabelsFound" = "Kuvassa on useampi kuin yksi anturin etiketti. Valitse kuva, jossa on yksi etiketti.";
+"noSensorLabelFound" = "Kuvasta ei löytynyt kelvollista Dexcom G6 -anturin etikettiä.";
+"invalidSensorLabelFound" = "Data Matrix löytyi, mutta se ei ollut kelvollinen Dexcom G6 -anturin etiketti.";
+"sensorLabelPhotoUnreadable" = "Valittua kuvaa ei voitu lukea.";
+"sensorCodeMetadata" = "Anturikoodi";
+"scannedSensorLabelCode" = "Skannatun etiketin koodi";
+"noCodeSensorSessionValue" = "0000 (Kooditon istunto)";
+"sensorCodeUnknown" = "Tuntematon";
+"sensorSessionOrigin" = "Istunnon alkuperä";
+"sensorSessionOriginUnknown" = "Tuntematon";
+"sensorSessionOriginAwaitingTransmitter" = "Odotetaan lähetintä";
+"sensorSessionOriginStartedByApp" = "xDrip4iOS:n käynnistämä";
+"sensorSessionOriginExistingAdopted" = "Olemassa oleva istunto otettu käyttöön";
+"sensorSessionOriginTransmitterDetected" = "Havaittu lähettimestä";
+"sensorSessionOriginRejected" = "Käynnistyspyyntö hylätty";
